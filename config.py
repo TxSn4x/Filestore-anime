@@ -10,21 +10,21 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8410672799:AAFMkTS9LChUL91Ci8A-jiaB0Y0F4FhWF6w")
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "14050586"))
+APP_ID = int(os.environ.get("APP_ID", "26657288"))
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
+API_HASH = os.environ.get("API_HASH", "00536e431477dbb16583d5b85813aa72")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003449615689"))
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "krishna")
+OWNER = os.environ.get("OWNER", "neo")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5446367898"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1008989961"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Krishna:krishna@cluster0.ecime.mongodb.net/")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://vishalleaks:vishalleaks@cluster0.hhhbseg.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Time in seconds for message delete, put 0 to never delete
@@ -32,7 +32,7 @@ TIME = int(os.environ.get("TIME", "1800"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002785824527"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
@@ -40,14 +40,14 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to dis
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/kyja0x.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/kyja0x.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/13ecade4a95f134301b95-c9be9bbd3878b2d258.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/lparud.jpg")
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
 TOKEN = True if os.environ.get('TOKEN', "True") == "True" else False 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "insprl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "oCwc@LnyDrQNk26RA1vfhIiF")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","")
